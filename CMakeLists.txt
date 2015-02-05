@@ -35,7 +35,6 @@ foreach(i ${SUBDIRS})
   add_subdirectory(${i})
 endforeach(i ${SUBDIRS})
 
-add_subdirectory(examples EXCLUDE_FROM_ALL)
 add_subdirectory(cmake/modules)
 
 # finalize the dune project, e.g., generate config.h etc.
