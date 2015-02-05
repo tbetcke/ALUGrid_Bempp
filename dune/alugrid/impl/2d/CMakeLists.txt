@@ -1,5 +1,5 @@
 set(impl2ddir  ${CMAKE_INSTALL_INCLUDEDIR}/dune/alugrid/impl/2d)
-set(impl2d_HEADERS  grid.h handle.h listwalk.h triang.h vmmap.h vtx_btree.h vtxprojection.h)
+set(impl2d_HEADERS  grid.h handle.h listwalk.h triang.h vmmap.h vtx_btree.h vtxprojection.h grid_imp.cc)
 set(EXTRA_DIST  grid.cc mknbrs.cc vmmap.cc hdlrw.h handle.cc triang.cc vtx_btree.cc grid_imp.cc)
 # include not needed for CMake
 # include $(top_srcdir)/am/global-rules
